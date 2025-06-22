@@ -1,22 +1,49 @@
-# Backend - API REST con Node.js, Express y PostgreSQL
+# 🌐 Proyecto Fullstack - React + Tailwind + Node + PostgreSQL
 
-Este es el backend de la aplicación, desarrollado en Node.js con Express y PostgreSQL. Ofrece autenticación con JWT, encriptación de contraseñas con bcrypt y registro de logs con Morgan.
+Este proyecto es una aplicación web fullstack compuesta por:
 
-## 🚀 Tecnologías usadas
+- 🔙 **Backend:** Node.js, Express, PostgreSQL, JWT, Bcrypt
+- 🔜 **Frontend:** React, Tailwind CSS, Ant Design, Axios
 
-- Node.js
-- Express
+---
+
+## 📁 Estructura del Proyecto
+
+project-root/
+├── backend/ # API REST con Express + PostgreSQL
+├── frontend/ # Interfaz de usuario con React + Tailwind
+└── README.md # Este archivo
+
+
+---
+
+## 🧩 Tecnologías Usadas
+
+### Backend
+
+- Node.js + Express
 - PostgreSQL
-- JWT (jsonwebtoken)
-- Bcrypt
-- Dotenv
+- JWT (autenticación)
+- Bcrypt (hash de contraseñas)
+- dotenv (variables de entorno)
+- Morgan (logs de servidor)
 - CORS
-- Morgan
-- Nodemon
 
-## 📦 Instalación
+### Frontend
 
-1. Clona el repositorio y navega al directorio del backend:
+- React 19
+- Tailwind CSS (v3)
+- Ant Design
+- Axios
+- js-cookie + jwt-decode
+- dotenv
+
+---
+
+## 🚀 Instalación y Uso
+
+### 1. Clonar el proyecto
 
 ```bash
-cd backend
+git clone https://github.com/tu-usuario/tu-proyecto.git
+cd tu-proyecto
